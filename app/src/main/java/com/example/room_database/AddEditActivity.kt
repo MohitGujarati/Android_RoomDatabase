@@ -25,7 +25,7 @@ class AddEditActivity : AppCompatActivity() {
     }
 
     class Mode {
-        object AddNote : Mode(f)
+        object AddNote : Mode()
         object EditNote : Mode()
     }
 }
