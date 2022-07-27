@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/on_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ON"
+        android:textAlignment="center"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/txtbaground"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="8dp"
+        android:hint="Name"
+        android:padding="8dp"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+         />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/txtbaground"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="8dp"
+        android:hint="Password"
+        android:inputType="textWebPassword"
+        android:padding="8dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+         />
+
+
+    <Button
+        android:id="@+id/submit"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#A1CCF1"
+        android:padding="5dp"
+        android:shadowColor="@color/white"
+        android:text="SUBMIT"
+        android:textAllCaps="false"
+        android:textColor="#020D50"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/next_project"
+        style="@style/Widget.Material3.Button.TonalButton.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_baseline_navigate_next_24"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="#012645"
+        android:padding="5dp"
+        android:shadowColor="@color/white"
+        android:text="Next Project"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

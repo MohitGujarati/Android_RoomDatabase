@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Android_c1</string>
+
+    <string-array name="pre_loaded_data">
+        <item> this is item 1</item>
+        <item> this is item 2</item>
+        <item> this is item 3</item>
+        <item> this is item 4</item>
+    </string-array>
+
+    <string-array name="spinner">
+
+        <item>spinner 1</item>
+        <item>spinner 2</item>
+        <item>spinner 3</item>
+        <item>spinner 4</item>
+    </string-array>
+</resources>

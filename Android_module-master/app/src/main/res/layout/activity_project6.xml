@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".pj_6.project_6">
+
+
+    <EditText
+        android:id="@+id/ed_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/txtbaground"
+        android:hint="Enter name"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Add" />
+
+    <ListView
+        android:id="@+id/dynamic_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@drawable/txtbaground" />
+
+    <ListView
+        android:id="@+id/pre_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/pre_loaded_data" />
+
+    <Spinner
+
+        android:id="@+id/id_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:entries="@array/spinner"
+        android:padding="10dp" />
+
+
+    <Button
+        android:id="@+id/btn_Alert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Alert" />
+
+
+</LinearLayout>

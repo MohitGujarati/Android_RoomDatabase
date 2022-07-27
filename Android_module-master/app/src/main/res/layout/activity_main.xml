@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".pj_1.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="50dp"
+        android:text=" You can change the background"
+        android:textAlignment="center"
+
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tv_textview"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="50dp"
+
+        android:hint="Purple,Blue,Red..."
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/btn_purple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#8E24AA"
+        android:padding="2dp"
+        android:text="Purple" />
+
+    <Button
+
+        android:id="@+id/btn_red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#E40101"
+        android:padding="2dp"
+        android:text="red" />
+
+    <Button
+
+        android:id="@+id/btn_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#4500CF"
+        android:padding="2dp"
+        android:text="blue" />
+
+    <Button
+
+        android:id="@+id/btn_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/green"
+        android:padding="2dp"
+        android:text="green"
+        android:textColor="@color/white" />
+
+    <Button
+
+        android:id="@+id/project_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:drawableRight="@drawable/ic_baseline_navigate_next_24"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#1E88E5"
+        android:padding="2dp"
+        android:text="Next project"
+        android:textColor="#FEFFFF" />
+
+
+    <!--
+        <EditText
+            android:id="@+id/Edt_txt"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="50dp"
+            android:background="#FFFFFF"
+            android:hint="Enter Number"
+            android:inputType="number"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_reversenum"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="50dp"
+            android:background="#FFFFFF"
+            android:hint="Enter Number"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+     -->
+</LinearLayout>

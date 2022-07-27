@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".pj_3.project_3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:text="This is Project 3 \n 1) Material Edit text \n 2) Radio btn \n 3) Intents"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Email"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Password"
+
+
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textWebPassword"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <RadioGroup
+        android:id="@+id/radio_grp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/txtbaground"
+        android:layout_margin="10dp"
+        >
+
+        <RadioButton
+            android:id="@+id/btn_adnroid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Android"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+
+        <RadioButton
+            android:id="@+id/btn_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="kotlin"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:id="@+id/btn_java"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Java"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/openweb"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#F1A1A1"
+        android:padding="5dp"
+        android:shadowColor="@color/white"
+        android:text="implicit Intent"
+        android:textAllCaps="false"
+        android:textColor="#020D50"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/p3_submit"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#A1CCF1"
+        android:padding="5dp"
+        android:shadowColor="@color/white"
+        android:text="Option Name"
+        android:textAllCaps="false"
+        android:textColor="#020D50"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/next_project_4"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#A986F1"
+        android:padding="5dp"
+        android:shadowColor="@color/white"
+        android:text="Next project"
+        android:drawableEnd="@drawable/ic_baseline_navigate_next_24"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
