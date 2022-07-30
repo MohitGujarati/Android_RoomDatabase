@@ -31,6 +31,9 @@ class MainActivity : AppCompatActivity() {
 
         fab.setOnClickListener {
             //
+
+//            val intent=Intent(this,AddEditActivity::class.java)
+//            startActivityForResult()
         }
 
         vm = ViewModelProviders.of(this)[NoteViewModel::class.java]

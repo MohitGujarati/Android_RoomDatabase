@@ -5,17 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
-    app:cardCornerRadius="5dp"
     android:elevation="10dp"
+    app:cardCornerRadius="5dp"
     tools:context=".AddEditActivity">
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        android:padding="10dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="10dp">
 
 
         <EditText
@@ -23,38 +22,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Title"
-            android:textStyle="bold"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
 
         <EditText
-            android:textStyle="bold"
             android:id="@+id/ed_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Description"
+            android:textSize="20dp"
 
-            android:textSize="20dp" />
+            android:textStyle="bold" />
 
-        <EditText
+        <NumberPicker
             android:id="@+id/ed_priority"
-            android:inputType="number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Priority"
-            android:textStyle="bold"
-            android:textSize="20dp" />
+            android:inputType="number"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
 
         <Button
             android:id="@+id/btn_submit"
-            android:inputType="number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="number"
             android:text="Submit"
-            android:textStyle="bold"
-            android:textSize="20dp" />
-
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
 
     </LinearLayout>
